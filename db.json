@@ -1,0 +1,55 @@
+{
+    "categories": [
+      { "id": 1, "ten": "Fruits", "anh": "icon-vegetables-broccoli.png", "an_hien": true },
+      { "id": 2, "ten": "Vegetables", "anh": "icon-vegetables-broccoli.png", "an_hien": true },
+      { "id": 3, "ten": "Dairy Products", "anh": "icon-bread-herb-flour.png", "an_hien": true },
+      { "id": 4, "ten": "Meat", "anh": "icon-animal-products-drumsticks.png", "an_hien": true },
+      { "id": 5, "ten": "Seafood", "anh": "icon-bread-baguette.pngseafood.jpg", "an_hien": false },
+      { "id": 6, "ten": "Bakery", "anh": "icon-soft-drinks-bottle.png", "an_hien": true },
+      { "id": 7, "ten": "Beverages", "anh": "icon-soft-drinks-bottle.png", "an_hien": true },
+      { "id": 8, "ten": "Frozen Food", "anh": "icon-wine-glass-bottle.png", "an_hien": true }
+
+    ],
+    "products": [
+      { "id": 1, "ten": "Banana", "anh": "banana.jpg", "gia": 10000, "so_luong": 50, "ghi_chu": "Organic", "an_hien": true, "luot_mua": 150, "id_cate": 1 },
+      { "id": 2, "ten": "Apple", "anh": "apple.jpg", "gia": 20000, "so_luong": 100, "ghi_chu": "Red Delicious", "an_hien": true, "luot_mua": 300, "id_cate": 1 },
+      { "id": 3, "ten": "Carrot", "anh": "carrot.jpg", "gia": 5000, "so_luong": 200, "ghi_chu": "Fresh", "an_hien": true, "luot_mua": 80, "id_cate": 2 },
+      { "id": 4, "ten": "Broccoli", "anh": "broccoli.jpg", "gia": 15000, "so_luong": 80, "ghi_chu": "Organic", "an_hien": true, "luot_mua": 120, "id_cate": 2 },
+      { "id": 5, "ten": "Milk", "anh": "milk.jpg", "gia": 25000, "so_luong": 300, "ghi_chu": "Whole", "an_hien": true, "luot_mua": 400, "id_cate": 3 },
+      { "id": 6, "ten": "Yogurt", "anh": "yogurt.jpg", "gia": 15000, "so_luong": 150, "ghi_chu": "Strawberry", "an_hien": true, "luot_mua": 200, "id_cate": 3 },
+      { "id": 7, "ten": "Beef", "anh": "beef.jpg", "gia": 80000, "so_luong": 60, "ghi_chu": "Grass-fed", "an_hien": true, "luot_mua": 180, "id_cate": 4 },
+      { "id": 8, "ten": "Chicken Breast", "anh": "chicken.jpg", "gia": 70000, "so_luong": 90, "ghi_chu": "Skinless", "an_hien": true, "luot_mua": 240, "id_cate": 4 },
+      { "id": 9, "ten": "Salmon", "anh": "salmon.jpg", "gia": 90000, "so_luong": 40, "ghi_chu": "Wild Caught", "an_hien": true, "luot_mua": 150, "id_cate": 5 },
+      { "id": 10, "ten": "Shrimp", "anh": "shrimp.jpg", "gia": 70000, "so_luong": 60, "ghi_chu": "Frozen", "an_hien": true, "luot_mua": 90, "id_cate": 5 },
+      { "id": 11, "ten": "Bread", "anh": "bread.jpg", "gia": 15000, "so_luong": 200, "ghi_chu": "Whole Wheat", "an_hien": true, "luot_mua": 220, "id_cate": 6 },
+      { "id": 12, "ten": "Croissant", "anh": "croissant.jpg", "gia": 10000, "so_luong": 100, "ghi_chu": "Butter", "an_hien": true, "luot_mua": 160, "id_cate": 6 },
+      { "id": 13, "ten": "Orange Juice", "anh": "orange_juice.jpg", "gia": 30000, "so_luong": 150, "ghi_chu": "Freshly Squeezed", "an_hien": true, "luot_mua": 320, "id_cate": 7 },
+      { "id": 14, "ten": "Cola", "anh": "cola.jpg", "gia": 15000, "so_luong": 300, "ghi_chu": "Sugar-free", "an_hien": true, "luot_mua": 400, "id_cate": 7 },
+      { "id": 15, "ten": "Ice Cream", "anh": "ice_cream.jpg", "gia": 50000, "so_luong": 120, "ghi_chu": "Vanilla", "an_hien": true, "luot_mua": 250, "id_cate": 8 }
+    ],
+    "postCategories": [
+      { "id": 1, "ten": "Healthy Eating" },
+      { "id": 2, "ten": "Recipes" },
+      { "id": 3, "ten": "Food Trends" },
+      { "id": 4, "ten": "Diet Tips" },
+      { "id": 5, "ten": "Cooking Techniques" },
+      { "id": 6, "ten": "Nutritional Advice" },
+      { "id": 7, "ten": "Food Safety" },
+      { "id": 8, "ten": "Grocery Shopping" },
+      { "id": 9, "ten": "Meal Prep" },
+      { "id": 10, "ten": "Organic Food" },
+      { "id": 11, "ten": "Special Diets" },
+      { "id": 12, "ten": "Seasonal Foods" },
+      { "id": 13, "ten": "Superfoods" },
+      { "id": 14, "ten": "Food Waste" },
+      { "id": 15, "ten": "Sustainable Eating" }
+    ],
+    "posts": [
+      { "id": 1, "ten": "Top 5 Healthy Fruits", "luot_xem": 500, "an_hien": true, "noi_dung": "Discover the health benefits of eating these fruits...", "anh": "fruits_post.jpg" },
+      { "id": 2, "ten": "How to Make a Perfect Salad", "luot_xem": 300, "an_hien": true, "noi_dung": "A step-by-step guide to creating a delicious salad...", "anh": "salad_post.jpg" },
+      { "id": 3, "ten": "Benefits of Organic Milk", "luot_xem": 200, "an_hien": false, "noi_dung": "Why organic milk is better for your health...", "anh": "milk_post.jpg" },
+      { "id": 4, "ten": "Best Cooking Methods for Meat", "luot_xem": 400, "an_hien": true, "noi_dung": "Learn the best ways to cook different cuts of meat...", "anh": "meat_post.jpg" }
+    
+    ]
+  }
+  

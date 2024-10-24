@@ -1,0 +1,19 @@
+{
+  "name": "asm_xuong_trongphu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "json-serve": "^0.1.0",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
